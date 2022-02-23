@@ -10,6 +10,12 @@ export default function Home() {
   return (
     <div>
       <h1>Home</h1>
+      <form>
+        <input type="text" />
+        <button type="submit" onClick={getWeather}>
+          Search
+        </button>
+      </form>
     </div>
   );
 }
