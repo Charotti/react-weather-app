@@ -3,6 +3,7 @@ import { createContext } from "react";
 import styled from "styled-components";
 import Home from "../src/pages/Home";
 import Favorites from "../src/pages/Favorites";
+import API from "./API";
 
 export const Weather = createContext();
 export default function App() {
